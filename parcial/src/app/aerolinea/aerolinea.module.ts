@@ -14,6 +14,6 @@ import { SimpleAerolineaComponent } from './simple-aerolinea/simple-aerolinea.co
     RouterModule
   ],
   declarations: [AerolineaComponent,ListarAerolineaComponent,DetalleAerolineaComponent,SimpleAerolineaComponent],
-  exports: [AerolineaComponent]
+  exports: [AerolineaComponent, ListarAerolineaComponent]
 })
 export class AerolineaModule { }

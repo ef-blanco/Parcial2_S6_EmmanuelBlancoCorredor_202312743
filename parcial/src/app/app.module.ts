@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AerolineaModule } from './aerolinea/aerolinea.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { AerolineaModule } from './aerolinea/aerolinea.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AerolineaModule
+    AerolineaModule, 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

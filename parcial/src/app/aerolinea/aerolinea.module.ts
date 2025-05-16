@@ -6,6 +6,7 @@ import { AerolineaComponent } from './aerolinea.component';
   imports: [
     CommonModule
   ],
-  declarations: [AerolineaComponent]
+  declarations: [AerolineaComponent],
+  exports: [AerolineaComponent]
 })
 export class AerolineaModule { }
